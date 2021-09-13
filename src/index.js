@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Cats from './components/cats'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Cats />
   </React.StrictMode>,
   document.getElementById('root')
 );
